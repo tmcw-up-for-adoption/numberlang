@@ -12,6 +12,9 @@ Goals
 * Secure: no access to Javascript objects
 * Only numbers allowed: no other types
 * Tiny implementation
+* Projections with parameters, like Albers, should be represented
+  just like any other and must state default values: but they can be
+  curried to provide those parameters.
 
 Possible features:
 
