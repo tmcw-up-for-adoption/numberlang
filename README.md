@@ -18,7 +18,7 @@ Goals
 
 Possible features:
 
-* TODO constants
+## Constants
 
 ```javascript
 var HALFPI = 1.5707963267948966;
@@ -29,10 +29,23 @@ var A = 6378137;
 var D2R = Math.PI / 180;
 ```
 
-* Base Math library
+## Base Math library
 
-atan
-log
-fabs
-cos
-sin
+* atan
+* log
+* fabs
+* cos
+* sin
+
+## FAQ
+
+Why not JavaScript?
+
+Security, simplicity and guarantees. There is no good way to clean untrusted JavaScript.
+It's easier to implement a simple language in other targets - like C++. And this will
+only fail in one way.
+
+Why not EPSG or proj4 strings?
+
+Because they rely on everyone having shared dictionaries of implementations, and agreeing
+on internal implementations.

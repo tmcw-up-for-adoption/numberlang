@@ -1,0 +1,20 @@
+{
+  "author": "Tom MacWright <tom@macwright.org> (http://macwright.org/)",
+  "name": "numberlang",
+  "description": "a restrictive math language",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tmcw/numberlang.git"
+  },
+  "engines": {
+    "node": "~0.4.10"
+  },
+  "dependencies": {
+    "jison": "0.2.13"
+  },
+  "devDependencies": {
+    "mocha": "0.9.0",
+    "should": "0.5.0"
+  }
+}
