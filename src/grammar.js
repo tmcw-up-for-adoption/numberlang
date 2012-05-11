@@ -8,6 +8,13 @@ var n = function(s) {
 var grammar = {
     "startSymbol": "program",
 
+    "lex": {
+        "rules": [
+           ["\\s+", "/* skip whitespace */"],
+           ["[a-f0-9]+", "return 'HEX';"]
+        ]
+    },
+
     "operators": [
         ["left", "RIGHTARROW", "LEFTARROW", "RIGHTFATARROW", "ELEM", "NOTELEM",
           "FORALL", "COMPOSE"],

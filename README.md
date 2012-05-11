@@ -3,6 +3,10 @@
 A small language for representing calculations.
 Targeted at implementing map projections via code injection.
 
+It's made to look like Javascript, and actually run as Javascript,
+though the implementation has no official relation. It's a compact
+language that should be easy to implement in C++ as well.
+
 Goals
 
 * Non-crazy syntax, somewhat familiar to Javascript programmers
@@ -31,11 +35,11 @@ var D2R = Math.PI / 180;
 
 ## Base Math library
 
-* atan
-* log
-* fabs
-* cos
-* sin
+* Math.atan
+* Math.log
+* Math.fabs
+* Math.cos
+* Math.sin
 
 ## FAQ
 
